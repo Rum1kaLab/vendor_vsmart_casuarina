@@ -13,6 +13,7 @@ soong_namespace {
 cc_prebuilt_library_shared {
     name: "camera.msm8953",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -61,6 +62,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libactuator_dw9714_casuarina",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -87,6 +89,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_beautyshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -112,6 +115,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_image",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -137,6 +141,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -162,6 +167,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdr_detection",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -186,6 +192,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -211,6 +218,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_hdr",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -236,6 +244,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_shot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -261,6 +270,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_singlecam_bokeh",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -286,6 +296,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcamera2ndk_vendor",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -324,6 +335,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcapiv2svacnn",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -350,6 +362,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcapiv2vop",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -376,6 +389,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_csidtg_common",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -402,6 +416,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_csidtg_cpp_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -428,6 +443,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_csidtg_postproc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -454,6 +470,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_csidtg_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -480,6 +497,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_csidtg_zsl_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -506,6 +524,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_gc2385_casuarina_common",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -532,6 +551,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_gc2385_casuarina_cpp_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -558,6 +578,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_gc2385_casuarina_postproc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -584,6 +605,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_gc2385_casuarina_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -610,6 +632,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_gc2385_casuarina_zsl_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -636,6 +659,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_a3_default_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -662,6 +686,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_a3_default_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -688,6 +713,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_a3_hfr_120",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -714,6 +740,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_a3_hfr_60",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -740,6 +767,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_a3_hfr_90",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -766,6 +794,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_common",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -792,6 +821,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_ds_chromatix",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -818,6 +848,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_hfr_120",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -844,6 +875,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_hfr_60",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -870,6 +902,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_hfr_90",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -896,6 +929,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_liveshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -922,6 +956,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -948,6 +983,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -974,6 +1010,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_us_chromatix",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1000,6 +1037,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_cpp_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1026,6 +1064,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_default_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1052,6 +1091,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_hfr_120",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1078,6 +1118,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_hfr_60",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1104,6 +1145,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_hfr_90",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1130,6 +1172,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_liveshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1156,6 +1199,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_postproc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1182,6 +1226,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1208,6 +1253,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1234,6 +1280,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_zsl_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1260,6 +1307,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_ov8856_casuarina_zsl_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1286,6 +1334,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_common",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1312,6 +1361,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_hfr_120",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1338,6 +1388,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_hfr_60",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1364,6 +1415,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_hfr_90",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1390,6 +1442,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_liveshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1416,6 +1469,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1442,6 +1496,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1468,6 +1523,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_cpp_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1494,6 +1550,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_default_preview_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1520,6 +1577,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_default_video",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1546,6 +1604,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_default_video_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1572,6 +1631,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_dualcam_zsl_preview_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1598,6 +1658,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_dualcamsnapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1624,6 +1685,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_hfr_120",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1650,6 +1712,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_hfr_120_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1676,6 +1739,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_hfr_60",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1702,6 +1766,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_hfr_60_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1728,6 +1793,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_hfr_90",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1754,6 +1820,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_hfr_90_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1780,6 +1847,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_liveshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1806,6 +1874,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_lls2_zsl_preview_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1832,6 +1901,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_lls2snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1858,6 +1928,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_lls_zsl_preview_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1884,6 +1955,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_llssnapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1910,6 +1982,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_postproc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1936,6 +2009,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1962,6 +2036,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1988,6 +2063,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_zsl_preview_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2014,6 +2090,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k3l6_casuarina_zsl_video_3a",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2040,6 +2117,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k4h7yx_casuarina_a3_zsl_preview",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2066,6 +2144,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k4h7yx_casuarina_common",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2092,6 +2171,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k4h7yx_casuarina_cpp_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2118,6 +2198,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k4h7yx_casuarina_postproc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2144,6 +2225,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libchromatix_s5k4h7yx_casuarina_snapshot",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2170,6 +2252,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libdepthmapwrapper",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2195,6 +2278,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libflash_pmic",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2221,6 +2305,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libhal_dbg",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2247,6 +2332,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libjpegdhw",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2273,6 +2359,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libjpegdmahw",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2299,6 +2386,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libjpegehw",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2325,6 +2413,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmm-qcamera",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2352,6 +2441,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_c2d_module",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2381,6 +2471,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_cpp_module",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2410,6 +2501,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_frame_algorithm",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2436,6 +2528,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_iface_modules",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2465,6 +2558,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_imglib_modules",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2495,6 +2589,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_is",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2521,6 +2616,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_isp_modules",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2549,6 +2645,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_mct",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2576,6 +2673,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_mct_shimlayer",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2610,6 +2708,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_pp_buf_mgr",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2638,6 +2737,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_pproc_modules",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2671,6 +2771,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_q3a_core",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2699,6 +2800,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_sensor_modules",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2731,6 +2833,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_stats_algorithm",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2757,6 +2860,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_stats_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2784,6 +2888,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera2_stats_modules",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2820,6 +2925,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_arcrtb_wrapper_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2850,6 +2956,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_atmel_at24c32e_eeprom",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2877,6 +2984,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_bokeh",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2911,6 +3019,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_csidtg",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2937,6 +3046,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_dbg",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2963,6 +3073,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_depth_map",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2989,6 +3100,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_dummyalgo",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3017,6 +3129,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_eebinparse",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3043,6 +3156,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_eeprom_util",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3069,6 +3183,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_eztune_module",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3098,6 +3213,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_facedetection_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3125,6 +3241,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3149,6 +3266,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc2",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3173,6 +3291,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_gc2385_casuarina",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3199,6 +3318,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_hdr_gb_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3225,6 +3345,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_holitech_ov8856_casuarina_eeprom",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3252,6 +3373,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_hongshi_s5k3l6_casuarina_eeprom",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3279,6 +3401,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_imglib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3308,6 +3431,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_imglib_faceproc_adspstub",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3335,6 +3459,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_interface",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3362,6 +3487,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_irs1645",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3388,6 +3514,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_abf40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3418,6 +3545,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_bcc40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3448,6 +3576,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_be_stats44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3478,6 +3607,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_bf_stats47",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3508,6 +3638,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_bg_stats44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3538,6 +3669,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_bhist_stats44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3568,6 +3700,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_bpc40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3598,6 +3731,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_chroma_enhan40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3628,6 +3762,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_chroma_suppress40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3658,6 +3793,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_clamp_encoder40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3688,6 +3824,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_clamp_video40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3718,6 +3855,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_clamp_viewfinder40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3748,6 +3886,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_color_correct40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3778,6 +3917,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_color_xform_encoder40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3808,6 +3948,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_color_xform_viewfinder40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3838,6 +3979,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_cs_stats44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3868,6 +4010,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_demosaic40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3898,6 +4041,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_demux40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3928,6 +4072,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_fovcrop_encoder40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3958,6 +4103,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_fovcrop_viewfinder40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3988,6 +4134,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_gamma40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4018,6 +4165,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_ihist_stats44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4048,6 +4196,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_linearization40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4078,6 +4227,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_ltm44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4108,6 +4258,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_luma_adaptation40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4138,6 +4289,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_mce40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4168,6 +4320,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_mesh_rolloff40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4198,6 +4351,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_rs_stats44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4228,6 +4382,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_scaler_encoder44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4258,6 +4413,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_scaler_viewfinder44",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4288,6 +4444,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_sce40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4318,6 +4475,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_sub_module",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4347,6 +4505,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_template",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4375,6 +4534,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_isp_wb40",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4405,6 +4565,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_ov8856_4lane_casuarina",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4431,6 +4592,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_paaf_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4459,6 +4621,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_pdaf",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4487,6 +4650,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_pdafcamif",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4515,6 +4679,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_ppbase_module",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4543,6 +4708,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_ppeiscore",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4576,6 +4742,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_quadracfa",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4603,6 +4770,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_s5k3l6_casuarina",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4629,6 +4797,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_s5k4h7yx_casuarina",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4655,6 +4824,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_sat_test_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4683,6 +4853,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_stillmore_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4710,6 +4881,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_sw2d_lib",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4739,6 +4911,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_thread_services",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4766,6 +4939,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_tintless_algo",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4793,6 +4967,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_tintless_bg_pca_algo",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4820,6 +4995,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_tsp_s5k4h7_casuarina_eeprom",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4847,6 +5023,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_tuning",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4885,6 +5062,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_tuning_lookup",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4912,6 +5090,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmjpeg",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4940,6 +5119,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmjpeg_interface",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4969,6 +5149,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmlib2d_interface",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4996,6 +5177,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmqjpeg_codec",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5026,6 +5208,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmqjpegdma",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5052,6 +5235,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmpbase",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5073,6 +5257,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqomx_core",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5099,6 +5284,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqomx_jpegdec",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5127,6 +5313,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqomx_jpegenc",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5155,6 +5342,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqomx_jpegenc_pipe",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5184,6 +5372,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libremosaic_daemon",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5210,6 +5399,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libseemore",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5235,6 +5425,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libvideoutils",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5260,6 +5451,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libpn547_fw",
     owner: "vsmart",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5368,6 +5560,7 @@ prebuilt_rfsa {
 cc_prebuilt_binary {
     name: "mm-qcamera-app",
     owner: "vsmart",
+    check_elf_files: false,
     target: {
         android_arm: {
             srcs: [
