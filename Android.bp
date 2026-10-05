@@ -31,8 +31,6 @@ cc_prebuilt_library_shared {
                 "libmmjpeg_interface",
                 "libui",
                 "libcamera_metadata",
-                "libqdMetaData",
-                "libqservice",
                 "libbinder",
                 "libhal_dbg",
                 "android.frameworks.displayservice@1.0",
@@ -2894,7 +2892,6 @@ cc_prebuilt_library_shared {
                 "libEGL",
                 "libGLESv2",
                 "libhardware",
-                "libqdMetaData",
                 "libutils",
                 "libui",
                 "libmmcamera_dbg",
@@ -4561,7 +4558,6 @@ cc_prebuilt_library_shared {
                 "libEGL",
                 "libGLESv2",
                 "libhardware",
-                "libqdMetaData",
                 "libutils",
                 "libmmcamera_dbg",
                 "libmmcamera_imglib",
@@ -5396,9 +5392,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-install_symlink {
-    name: "vendor_firmware_wlan_prima_WCNSS_qcom_wlan_nv_bin",
-    soc_specific: true,
-    installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin",
-    symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv_v430mp_v1.5.bin",
-}
+// The wlan nv symlink is defined as a make module in
+// device/vsmart/casuarina/Android.mk; the install_symlink module type does
+// not exist on lineage-20.0.
